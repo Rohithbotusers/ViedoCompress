@@ -35,7 +35,7 @@ A Telegram Video Compressor Bot By [@AbirHasan2005](https://t.me/linux_repo). **
 	
 ### You can tap the Deploy To Heroku button below to deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/REX-BOTZ/RenameBot-PermTB)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/REX-BOTZ/ViedoCompress)
 
 
 	
