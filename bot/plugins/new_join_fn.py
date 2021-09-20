@@ -43,7 +43,7 @@ async def help_message_f(client, message):
             user = await client.get_chat_member(UPDATES_CHANNEL, message.chat.id)
             if user.status == "kicked":
                await message.reply_text(
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/REX_BOT_SUPPORT).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Pigasussupport).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -54,7 +54,7 @@ async def help_message_f(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/pigasusupdates")
                         ]
                     ]
                 ),
@@ -63,7 +63,7 @@ async def help_message_f(client, message):
             return
         except Exception:
             await message.reply_text(
-                text="Something went Wrong. Contact my [Support Group](https://t.me/REX_BOT_SUPPORT).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/pigasussupport).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -74,12 +74,12 @@ async def help_message_f(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⚡Support Group⚡', url='https://t.me/REX_BOT_SUPPORT'),
-                    InlineKeyboardButton('🇮🇳 Updates Channel 🇮🇳', url='https://t.me/REX_BOTZ'),
-                    InlineKeyboardButton('📚 Bot List 📚', url='https://t.me/REX_BOTZ/33')
+                    InlineKeyboardButton('Support Group ', url='https://t.me/pigasussupport'),
+                    InlineKeyboardButton('🇮🇳 Updates Channel 🇮🇳', url='https://t.me/pigasusupdates),
+                    InlineKeyboardButton(' Bot List', url='https://t.me/REX_BOTZ/33')
                 ],
                 [
-                    InlineKeyboardButton('👨‍💻 Father 👨‍💻', url='https://t.me/BENWOLF24')
+                    InlineKeyboardButton('My owner', url='https://t.me/Rohith_no_1')
                 ]
             ]
         ),
