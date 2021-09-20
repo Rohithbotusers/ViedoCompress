@@ -75,7 +75,7 @@ async def incoming_start_message_f(bot, update):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("💥Join Updates Channel💥", url=f"https://t.me/Pigasusupdates")
+                            InlineKeyboardButton("💥Join Updates Channel💥", url=f"https://t.me/{UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
@@ -130,7 +130,7 @@ async def incoming_compress_message_f(bot, update):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/piasusupdates")
+                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
